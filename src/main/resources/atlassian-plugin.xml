@@ -18,6 +18,10 @@
     <resource type="download" name="images/" location="/images"/>
     <context>confluence-birthday-plugin</context>
   </web-resource>
+  <ao key="ao-module">
+    <description>The module configuring the Active Objects service used by this plugin</description>
+    <entity>br.rnp.confluence.plugins.ao.Birthday</entity>
+  </ao>
   <gadget name="birthday" i18n-name-key="birthday.name" key="birthday" location="gadgets/birthday/gadget.xml">
     <description key="birthday.description">The birthday Plugin</description>
   </gadget>
